@@ -1,6 +1,6 @@
 # LFIBuster
 
-LFI Buster is a multi-threaded Python tool designed to test for Local File Inclusion (LFI) vulnerabilities across multiple domains and payloads. It features:
+LFI Buster is a multi-threaded Python script designed to test for Local File Inclusion (LFI) vulnerabilities across multiple domains and payloads. It features:
 - Customizable domains and payload files via command-line arguments.
 - Multi-threaded testing for speed.
 - Configurable parameter name for LFI injection (e.g., file, page, p).
