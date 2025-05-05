@@ -42,7 +42,3 @@ python lfi_buster.py --param file --domains domains.txt --payloads payloads.txt 
 - Parameter buster
 - Help menu 
 
-License
-
-This project is released under the MIT License.
-
