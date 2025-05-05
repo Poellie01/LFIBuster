@@ -38,7 +38,7 @@ python lfi_buster.py --param <PARAM_NAME> --domains <DOMAINS_FILE> --payloads <P
 ```
 python lfi_buster.py --param file --domains domains.txt --payloads payloads.txt -v --output results.txt
 ```
-### New features in the make:
+### New features currently in development:
 - Parameter buster
 - Help menu 
 
