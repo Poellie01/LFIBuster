@@ -12,9 +12,9 @@ LFI Buster is a multi-threaded Python script designed to test for Local File Inc
 
 ### Requirements
 - Python 3.6+
-- requests
-- tqdm
-- colorama
+- ```requests```
+- ```tqdm```
+- ```colorama```
 
 ### Installation
 
@@ -22,9 +22,9 @@ Install dependencies via pip:
 pip install requests tqdm colorama
 
 ### Usage
-
+```
 python lfi_buster.py --param <PARAM_NAME> --domains <DOMAINS_FILE> --payloads <PAYLOADS_FILE> [options]
-
+```
 ### Required Arguments
 --param: Name of the LFI parameter (e.g., file, page, p).
 --domains: Path to the domains file (one domain/URL per line).
@@ -35,12 +35,12 @@ python lfi_buster.py --param <PARAM_NAME> --domains <DOMAINS_FILE> --payloads <P
 --output: Path to the output file for anomalies (default: anomalies.txt).
 
 ### Example
-
+```
 python lfi_buster.py --param file --domains domains.txt --payloads payloads.txt -v --output results.txt
-
+```
 ### New features in the make:
 - Parameter buster
-- 
+- Help menu 
 
 License
 
